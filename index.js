@@ -3,7 +3,7 @@ var photoArr = [];
 var noPhotos = false;
 var pageNum = 1;
 validations();
-//Improve validations!
+$('#err').text("Welcome to NASA Rover Photo Finder. Just select date and navigate through photos");
 $('#imgbtn').on('click',function(){
     validations();
     main();
